@@ -1,7 +1,7 @@
 import React from 'react';
 import {  Mail, Phone, MapPin } from 'lucide-react';
 import { Link } from 'react-router-dom';
-import logo from './logo.png';
+import logo from '../assets/logo.png';
 export const Footer: React.FC = () => {
   return (
 <footer className="bg-gray-100 dark:bg-gray-900 border-t border-gray-200 dark:border-gray-800">
