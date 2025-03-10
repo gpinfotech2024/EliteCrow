@@ -3,5 +3,5 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  base: "/EliteCrow/", // Change this to the correct deployment subpath
+  base: './', // Use "./" or "/your-repo-name/" if using GitHub Pages
 });
